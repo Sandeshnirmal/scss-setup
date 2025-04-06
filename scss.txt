@@ -1,4 +1,3 @@
-Linux
 create a folder then install npm using 
 $ npm i sass -D
 then open package.json file and insert the script in the starting of the json file
