@@ -1,0 +1,16 @@
+Linux
+create a folder then install npm using 
+$ npm i sass -D
+then open package.json file and insert the script in the starting of the json file
+
+	{
+	"scripts": {
+   	 "scss": "sass --watch src/scss:src/css --style compressed  --no-source-map"
+	 },
+
+	#version{}
+	}
+
+create directory with src/css and src/scss
+then run the npm  
+$ npm run scss
